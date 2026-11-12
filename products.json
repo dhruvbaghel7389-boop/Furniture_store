@@ -1,0 +1,151 @@
+[
+  {
+    "id": 1,
+    "name": "Armchair with Head Rester",
+    "category": "chair",
+    "displayCategory": "Armchair",
+    "price": 62.50,
+    "image": "img/armchair-300x300.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Beige Living Room Sofa",
+    "category": "sofa",
+    "displayCategory": "Sofa",
+    "price": 599,
+    "oldPrice": 659,
+    "image": "img/sofa-300x300.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Classic Wooden Table",
+    "category": "table",
+    "displayCategory": "Stool",
+    "price": 85,
+    "oldPrice": 90,
+    "image": "img/table-300x300.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Computer Table with Office Chair",
+    "category": "table",
+    "displayCategory": "Computer table",
+    "price": 775,
+    "image": "img/office-table-300x300.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Corner Study Table with Chair",
+    "category": "table",
+    "displayCategory": "Study table",
+    "price": 459,
+    "image": "img/desk-table-300x300.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Desktop Table with Drawers",
+    "category": "table",
+    "displayCategory": "Computer table",
+    "price": 529,
+    "oldPrice": 565,
+    "image": "img/study-table.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Dinning Table for Two",
+    "category": "table",
+    "displayCategory": "Table",
+    "price": 360,
+    "oldPrice": 422,
+    "image": "img/dining-table-300x300.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Fancy Chair",
+    "category": "sofa",
+    "displayCategory": "Sofa",
+    "price": 199,
+    "image": "img/fancy-chairs-300x300.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Fancy Single Chair",
+    "category": "chair",
+    "displayCategory": "Chair",
+    "price": 199,
+    "image": "img/chair-300x300.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Modern White Round Sofa",
+    "category": "sofa",
+    "displayCategory": "Sofa",
+    "price": 599,
+    "image": "img/round-sofa-300x300.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Orange Recliner with Leg Rest",
+    "category": "chair",
+    "displayCategory": "Chair",
+    "price": 419,
+    "image": "img/pic53-free-img.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Round Short Leg Stool/Chair",
+    "category": "chair",
+    "displayCategory": "Chair",
+    "price": 299,
+    "image": "img/round-stool.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Sofa Chairs with Cushions",
+    "category": "sofa",
+    "displayCategory": "Sofa",
+    "price": 325,
+    "image": "img/safa-2-300x300.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Sofa Chairs with Red Cushions",
+    "category": "sofa",
+    "displayCategory": "Sofa",
+    "price": 450,
+    "image": "img/chair-1-300x300.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Study Table",
+    "category": "table",
+    "displayCategory": "Study table",
+    "price": 385,
+    "image": "img/wooden-study-table-300x300.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Vintage Luxuey Chair",
+    "category": "chair",
+    "displayCategory": "Chair",
+    "price": 429,
+    "image": "img/chair-300x258.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Wingback Yellow Couch",
+    "category": "chair",
+    "displayCategory": "Chair",
+    "price": 186,
+    "oldPrice": 192,
+    "image": "img/couch-300x300.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Wooden Rocking Chair",
+    "category": "chair",
+    "displayCategory": "Armchair",
+    "price": 169,
+    "image": "img/wooden-rocking-chair-300x300.jpg"
+  }
+]

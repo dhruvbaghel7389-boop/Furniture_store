@@ -1,0 +1,221 @@
+/* about page styles */
+
+/* about hero banner */
+.about-hero {
+  max-width: 1200px;
+  width: 100%;
+  min-height: 520px;
+  margin: 5px auto 40px;
+  position: relative;
+  overflow: hidden;
+  background-color: #ededed;
+  background-image: url("../img/hanging-lamp-banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+}
+
+/* permanent exhibitions section */
+.permanent-section {
+  max-width: 1200px;
+  margin: 60px auto;
+  padding: 0 15px;
+}
+
+.permanent-image {
+  height: 420px;
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.permanent-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+.hero-content h1 {
+  margin-top: 6px;
+  margin-bottom: 35px;
+  color: #fdfdfd;
+  font-size: clamp(38px, 5.5vw, 60px);
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.permanent-image:hover img {
+  transform: scale(1.03);
+}
+
+.permanent-content {
+  padding: clamp(20px, 4vw, 40px);
+}
+
+.permanent-content h2 {
+  color: #607f90;
+  font-size: clamp(26px, 3.5vw, 36px);
+  font-weight: 500;
+  margin-bottom: 28px;
+}
+
+.exhibition-item {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 24px;
+  align-items: flex-start;
+}
+
+.exhibition-icon {
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #eef3f6;
+  color: #607f90;
+  border-radius: 50%;
+  font-size: 20px;
+}
+
+.exhibition-item h3 {
+  color: #183c51;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.exhibition-item p {
+  color: #666666;
+  font-size: 14px;
+  margin-bottom: 0;
+  line-height: 1.6;
+}
+
+/* brand story section */
+.repellat-section {
+  max-width: 1200px;
+  margin: 60px auto;
+  padding: 0 15px;
+}
+
+.repellat-content {
+  padding: clamp(20px, 4vw, 40px);
+}
+
+.repellat-content h2 {
+  color: #607f90;
+  font-size: clamp(26px, 3.5vw, 36px);
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.repellat-content p {
+  color: #666666;
+  font-size: 15px;
+  line-height: 1.8;
+  margin-bottom: 0;
+}
+
+.repellat-image {
+  height: 380px;
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.repellat-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.repellat-image:hover img {
+  transform: scale(1.03);
+}
+
+/* responsive about page */
+@media (max-width: 991.98px) {
+  .about-hero {
+    min-height: clamp(320px, 42vw, 420px);
+    background-position: right center;
+    margin-bottom: 30px;
+  }
+
+  .permanent-section,
+  .repellat-section {
+    margin: 45px auto;
+  }
+
+  .permanent-image,
+  .repellat-image {
+    height: auto;
+    max-width: 560px;
+    margin: 0 auto;
+  }
+
+  .permanent-image img,
+  .repellat-image img {
+    height: auto;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .about-hero {
+    min-height: clamp(240px, 44vw, 340px);
+    background-position: right center;
+  }
+
+  .about-hero .hero-content {
+    padding: 32px 24px;
+    max-width: 72%;
+  }
+
+  .about-hero .hero-content h1 {
+    font-size: clamp(28px, 6.5vw, 42px);
+    margin-bottom: 20px;
+    line-height: 1.28;
+  }
+
+  .permanent-content,
+  .repellat-content {
+    padding: 16px 0;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .about-hero {
+    min-height: clamp(190px, 48vw, 260px);
+    background-position: right center;
+  }
+
+  .about-hero .hero-content {
+    padding: 24px 20px;
+    max-width: 72%;
+  }
+
+  .about-hero .hero-content h1 {
+    font-size: clamp(24px, 7vw, 38px);
+    margin-bottom: 16px;
+    line-height: 1.25;
+  }
+
+  .permanent-section,
+  .repellat-section {
+    margin: 35px auto;
+  }
+
+  .exhibition-item {
+    gap: 14px;
+    margin-bottom: 18px;
+  }
+
+  .exhibition-icon {
+    width: 42px;
+    height: 42px;
+    font-size: 17px;
+  }
+}
